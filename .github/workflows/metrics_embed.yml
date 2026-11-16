@@ -1,18 +1,25 @@
 # Visit https://github.com/lowlighter/metrics#-documentation for full reference
 name: Metrics
 on:
-  # Schedule updates (each hour)
+  # Daily at 00:00 UTC
   schedule: [{cron: "0 0 * * *"}]
-  # Lines below let you run workflow manually and on each commit
+  # Manual runs, and a fresh render whenever this workflow's configuration changes
   workflow_dispatch:
-  push: {branches: ["master", "main"]}
+  push:
+    branches: [main]
+    paths: [.github/workflows/metrics_embed.yml]
+# Shared with blog_posts.yml so the two workflows never push to main at the same time
+concurrency:
+  group: profile-readme-commit
+  cancel-in-progress: false
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
           # Your GitHub token
           # The following scopes are required:
@@ -53,6 +60,3 @@ jobs:
           plugin_repositories: yes
           plugin_repositories_order: featured, pinned, starred, random
           plugin_repositories_pinned: 3
-          plugin_rss: yes
-          plugin_rss_limit: 4
-          plugin_rss_source: https://medium.com/feed/@tyutyutyu
