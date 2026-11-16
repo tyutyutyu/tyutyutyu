@@ -37,8 +37,8 @@ and in my spare time I build small developer tools in Go, Rust and Python.
 ## ✍️ Latest blog posts
 
 <!-- BLOG-POST-LIST:START -->
-- [Docker Base Images Demystified: A Practical Guide from Basics to Best Practices](https://medium.com/@tyutyutyu/docker-base-images-demystified-a-practical-guide-from-basics-to-best-practices-aea8e7d28d65)
-- [One Year with GitHub Copilot: Magic or Reality?](https://medium.com/@tyutyutyu/one-year-with-github-copilot-magic-or-reality-9c31f0db091c)
+- [Docker Base Images Demystified: A Practical Guide from Basics to Best Practices](https://medium.com/@tyutyutyu/docker-base-images-demystified-a-practical-guide-from-basics-to-best-practices-aea8e7d28d65?source=rss-1f9781ed6f2d------2)
+- [One Year with GitHub Copilot: Magic or Reality?](https://medium.com/@tyutyutyu/one-year-with-github-copilot-magic-or-reality-9c31f0db091c?source=rss-1f9781ed6f2d------2)
 <!-- BLOG-POST-LIST:END -->
 
 ## 📊 GitHub metrics
