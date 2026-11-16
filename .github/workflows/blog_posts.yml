@@ -5,9 +5,9 @@ on:
   # Daily at 06:00 UTC
   schedule: [{cron: "0 6 * * *"}]
   workflow_dispatch:
-# Shared with metrics_embed.yml so the two workflows never push to main at the same time
+# Never let two runs push README changes at the same time
 concurrency:
-  group: profile-readme-commit
+  group: blog-posts
   cancel-in-progress: false
 jobs:
   update-blog-posts:
