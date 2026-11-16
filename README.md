@@ -6,8 +6,8 @@ Senior software developer from Budapest, Hungary.
 I spent 19+ years in Java backend development — from Java 1.4 and J2EE application servers
 to Spring Boot microservices running on Kubernetes — with a soft spot for DevOps and Python.
 
-These days my main focus is **AI-assisted development**: I build software together with
-coding agents such as Claude Code. That is also how my Go and Rust projects below were made.
+These days my main focus is **AI-assisted development**: I build software with coding agents
+such as Claude Code, following a development workflow of my own. That is also how my Go and Rust projects below were made.
 
 🌐 [istvanfoldhazi.me](https://istvanfoldhazi.me/) ·
 💼 [LinkedIn](https://www.linkedin.com/in/istvan-foldhazi/) ·

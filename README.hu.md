@@ -6,8 +6,8 @@ Budapesti senior szoftverfejlesztő vagyok.
 Több mint 19 évet töltöttem Java backend fejlesztéssel — a Java 1.4-től és a J2EE alkalmazásszerverektől
 a Kubernetesen futó Spring Boot microservice-ekig —, a DevOps és a Python pedig mindig is közel állt hozzám.
 
-Ma a fő fókuszom az **AI-alapú fejlesztés**: kódoló ágensekkel, például a Claude Code-dal
-együtt építek szoftvert. Az alábbi Go és Rust projektjeim is így készültek.
+Ma a fő fókuszom az **AI-alapú fejlesztés**: kódoló ágensekkel, például a Claude Code-dal,
+saját fejlesztési workflow mentén építek szoftvert. Az alábbi Go és Rust projektjeim is így készültek.
 
 🌐 [istvanfoldhazi.me](https://istvanfoldhazi.me/) ·
 💼 [LinkedIn](https://www.linkedin.com/in/istvan-foldhazi/) ·
